@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
-import './App.css';
+import db from './firebaseConfig'
+import 'firebase/database'
 
 class App extends Component {
 	componentDidMount() {
-		fetch('https://test-45931.firebaseio.com/')
-			.then(resp => {
-				console.log(resp);
-			})
+		// db.doc("todos/1").get().then((resp) => {
+		// 	console.log(resp.data());
+		// });
+
+		// db.collection("todos").get().then((resp) => {
+		// 	console.log(resp.docs[0].data());
+		// });
+
+		db.doc("todos/4").set({content: 'oh jeez'})
 	}
 
 	render() {
