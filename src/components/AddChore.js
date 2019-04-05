@@ -20,8 +20,15 @@ const AddChore = props => {
             }).catch(error => {
                 console.log(error)
             })
-            // setTaskInputValue('')
-            // setPersonInputValue('')
+            // console.log(props.choresData)
+            // props.setChoresData([
+            //     ...props.choresData,
+            //     {
+            //         task: taskInputValue,
+            //         person: personInputValue,
+            //         id: '12121'
+            //     }
+            // ])
         }
     }
 

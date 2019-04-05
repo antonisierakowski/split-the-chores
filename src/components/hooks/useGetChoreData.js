@@ -5,10 +5,8 @@ const useGetChoreData = () => {
     const [ choresData, setChoresData ] = useState( [] )
 	const [ isLoading, setIsLoading ] = useState(false);
     const [ isError, setIsError ] = useState(false);
-	const [ listener, setListener ] = useState(true);
     
     useEffect( () => {
-		console.log('USE EFFECT ODPALONY')
 		const getChoreData = async () => {
 			setIsLoading(true)
 			setIsError(false);
@@ -29,20 +27,44 @@ const useGetChoreData = () => {
                 console.log('error getting data from firestore')
 			})
 		}
-        getChoreData();
+		getChoreData();
 	}, [])
-	
+
 	useEffect( () => {
-		const listenForChanges = async () => {
-			db.collection('chores').onSnapshot(snapshot => {
-				setListener(!listener);
-				console.log(listener)
+		const periodicRefresh = async () => {
+			console.log('refresh')
+			const result = await db.collection("chores").get()
+			.then( snapshot => {
+				return snapshot.docs.map(e => {
+					return {
+						id: e.id,
+						task: e.data().task,
+						person: e.data().person,
+					}
+				})
+			}).then(fetchedChores => {
+				setChoresData(fetchedChores);
+			}).catch( error => {
+                setIsError(true);
+                console.log('error refreshing')
 			})
 		}
-		// listenForChanges();
+		const intervalId = setInterval( () => periodicRefresh(), 1000);
+
+		return () => clearInterval(intervalId)
 	}, [])
+	
+	// useEffect( () => {
+	// 	const listenForChanges = async () => {
+	// 		db.collection('chores').onSnapshot(snapshot => {
+	// 			setListener(!listener);
+	// 			console.log(listener)
+	// 		})
+	// 	}
+	// 	// listenForChanges();
+	// }, [])
     
-    return { choresData, isLoading, isError }
+    return { choresData, isLoading, isError, setChoresData }
 }
 
 export default useGetChoreData;

@@ -10,16 +10,16 @@ import Loading from './components/Loading'
 
 
 const App = () => {
-	const { choresData, isLoading, isError } = useGetChoreData();
+	const { choresData, isLoading, isError, setChoresData } = useGetChoreData();
 
 	return (
 		<>
 			<GlobalStyle/>
 			<Header>Split the chores</Header>
 			<Wrapper>
-				<AddChore/>
+				<AddChore choresData={choresData} setChoresData={setChoresData}/>
 				<ChoreListContainer>
-					{ isLoading ? <Loading /> : <ChoreList data={choresData}/>}
+					{ isLoading ? <Loading /> : <ChoreList data={choresData} setChoresData={setChoresData}/>}
 				</ChoreListContainer>
 			</Wrapper>
 		</>
