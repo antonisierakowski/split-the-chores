@@ -6,12 +6,13 @@ const Wrapper = styled(Paper)`
         margin: 0 auto;
         max-width: 700px;
         display: flex;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
         flex-direction: column;
         background: white;
         padding: 30px;
         border-radius: 8px;
         border-top-right-radius: 80px;
+        min-height: 388px;
     }
 `
 

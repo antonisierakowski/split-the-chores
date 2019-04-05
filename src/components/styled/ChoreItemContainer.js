@@ -19,9 +19,13 @@ const ChoreItemContainer = styled.div`
         span {
             font-size: 14px;
             color: ${grey[600]};
-            }
         }
+    }
 
+    &:hover {
+        background: ${grey[300]};
+    }
+        
 `
 
 export default ChoreItemContainer;
