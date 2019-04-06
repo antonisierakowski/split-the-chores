@@ -1,11 +1,11 @@
 {
-  "main.js": "/todo-with-hooks-and-firebase/static/js/main.ada44329.chunk.js",
-  "main.js.map": "/todo-with-hooks-and-firebase/static/js/main.ada44329.chunk.js.map",
-  "runtime~main.js": "/todo-with-hooks-and-firebase/static/js/runtime~main.3b977e27.js",
-  "runtime~main.js.map": "/todo-with-hooks-and-firebase/static/js/runtime~main.3b977e27.js.map",
-  "static/js/2.0a3a9eb8.chunk.js": "/todo-with-hooks-and-firebase/static/js/2.0a3a9eb8.chunk.js",
-  "static/js/2.0a3a9eb8.chunk.js.map": "/todo-with-hooks-and-firebase/static/js/2.0a3a9eb8.chunk.js.map",
-  "index.html": "/todo-with-hooks-and-firebase/index.html",
-  "precache-manifest.3fead4e4811330e8ba23a2187b829cc8.js": "/todo-with-hooks-and-firebase/precache-manifest.3fead4e4811330e8ba23a2187b829cc8.js",
-  "service-worker.js": "/todo-with-hooks-and-firebase/service-worker.js"
+  "main.js": "/split-chores/static/js/main.f5791cd8.chunk.js",
+  "main.js.map": "/split-chores/static/js/main.f5791cd8.chunk.js.map",
+  "runtime~main.js": "/split-chores/static/js/runtime~main.47195fb2.js",
+  "runtime~main.js.map": "/split-chores/static/js/runtime~main.47195fb2.js.map",
+  "static/js/2.32793a33.chunk.js": "/split-chores/static/js/2.32793a33.chunk.js",
+  "static/js/2.32793a33.chunk.js.map": "/split-chores/static/js/2.32793a33.chunk.js.map",
+  "index.html": "/split-chores/index.html",
+  "precache-manifest.4e9e2232f0c2acc3416649d6dd8509ef.js": "/split-chores/precache-manifest.4e9e2232f0c2acc3416649d6dd8509ef.js",
+  "service-worker.js": "/split-chores/service-worker.js"
 }

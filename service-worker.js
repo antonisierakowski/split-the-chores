@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/todo-with-hooks-and-firebase/precache-manifest.3fead4e4811330e8ba23a2187b829cc8.js"
+  "/split-chores/precache-manifest.4e9e2232f0c2acc3416649d6dd8509ef.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/todo-with-hooks-and-firebase/index.html", {
+workbox.routing.registerNavigationRoute("/split-chores/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
