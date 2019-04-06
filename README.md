@@ -1,1 +1,1 @@
-https://antonisierakowski.github.io/split-chores
+https://antonisierakowski.github.io/split-the-chores
