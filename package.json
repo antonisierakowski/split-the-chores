@@ -1,5 +1,5 @@
 {
-  "name": "split-chores",
+  "name": "split-the-chores",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,5 +29,5 @@
     "not op_mini all"
   ],
   "devDependencies": {},
-  "homepage": "https://antonisierakowski.github.io/split-chores"
+  "homepage": "https://antonisierakowski.github.io/split-the-chores"
 }
