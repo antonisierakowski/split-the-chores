@@ -1,11 +1,11 @@
 {
-  "main.js": "/split-chores/static/js/main.f5791cd8.chunk.js",
-  "main.js.map": "/split-chores/static/js/main.f5791cd8.chunk.js.map",
-  "runtime~main.js": "/split-chores/static/js/runtime~main.47195fb2.js",
-  "runtime~main.js.map": "/split-chores/static/js/runtime~main.47195fb2.js.map",
-  "static/js/2.32793a33.chunk.js": "/split-chores/static/js/2.32793a33.chunk.js",
-  "static/js/2.32793a33.chunk.js.map": "/split-chores/static/js/2.32793a33.chunk.js.map",
-  "index.html": "/split-chores/index.html",
-  "precache-manifest.4e9e2232f0c2acc3416649d6dd8509ef.js": "/split-chores/precache-manifest.4e9e2232f0c2acc3416649d6dd8509ef.js",
-  "service-worker.js": "/split-chores/service-worker.js"
+  "main.js": "/split-the-chores/static/js/main.013e4854.chunk.js",
+  "main.js.map": "/split-the-chores/static/js/main.013e4854.chunk.js.map",
+  "runtime~main.js": "/split-the-chores/static/js/runtime~main.8a7ba4bb.js",
+  "runtime~main.js.map": "/split-the-chores/static/js/runtime~main.8a7ba4bb.js.map",
+  "static/js/2.1da553bf.chunk.js": "/split-the-chores/static/js/2.1da553bf.chunk.js",
+  "static/js/2.1da553bf.chunk.js.map": "/split-the-chores/static/js/2.1da553bf.chunk.js.map",
+  "index.html": "/split-the-chores/index.html",
+  "precache-manifest.1a0077357140e5b4c150f6ded5974b2f.js": "/split-the-chores/precache-manifest.1a0077357140e5b4c150f6ded5974b2f.js",
+  "service-worker.js": "/split-the-chores/service-worker.js"
 }
