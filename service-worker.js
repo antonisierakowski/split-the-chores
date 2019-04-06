@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/split-the-chores/precache-manifest.1a0077357140e5b4c150f6ded5974b2f.js"
+  "/split-the-chores/precache-manifest.d2568e49747720b7cfad35d06abb7ff8.js"
 );
 
 workbox.clientsClaim();
