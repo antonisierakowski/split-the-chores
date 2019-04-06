@@ -1,1 +1,1 @@
-https://antonisierakowski.github.io/todo-with-hooks-and-firebase/
+https://antonisierakowski.github.io/split-chores
